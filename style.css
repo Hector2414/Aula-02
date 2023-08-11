@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100vw;
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-block: 16px;
+        gap: 10px;
+}
+
+
+.item{
+    height: 150px;
+        width: 80%;
+        display: flex;
+        background-color: black;
+        justify-content: space-between;
+        align-items: center;
+        padding-inline: 32px;
+       
+}
+
+
+.texto{
+    color: aliceblue;
+    font-size: 64px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.forma{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+.vermelho{
+    background-color: rgb(225, 65, 65);
+}
+
+
+.circulo{
+    border-radius: 50%;
+}
+
+.mover{
+    margin: 365px;
+}
+
+.aumenta{
+    width: 150px;
+    height: 150px;
+}
+
+.diminui{
+    width: 50px;
+    height: 50px;
+}
+
+.triangulo{
+    width: 0; 
+    height: 0; 
+    border-left: 40px solid black;
+    border-right: 40px solid black;
+    border-bottom: 25px solid red;
+}
+
+.degrade{
+
+   background-image: url(mona2.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.some{
+    background: transparent;
+}
